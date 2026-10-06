@@ -1,0 +1,9 @@
+# Preserve exact bytes of historical exports, profiles and verification receipts.
+* -text
+*.stl binary
+*.3mf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.glb binary
+*.zip binary

@@ -1,0 +1,9 @@
+{
+  "name": "print-library",
+  "version": "0.1.0",
+  "description": "Print Library: design, verify and record 3D-printable models, and work inside a Print Library repository with its own vendored tool (draft, check, publish to library/agent/* pull requests).",
+  "author": { "name": "AlexMC" },
+  "homepage": "https://print-library.alexcarvalho.me",
+  "repository": "https://github.com/AlexMC/print-library-plugin",
+  "keywords": ["3d-printing", "print-library", "stl", "3mf", "bambu"]
+}

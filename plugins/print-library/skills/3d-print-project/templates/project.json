@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "id": "",
+  "name": "",
+  "origin": {
+    "kind": null,
+    "source_url": null,
+    "site": null,
+    "designer": null,
+    "retrieved": null
+  },
+  "license": {
+    "state": "unknown",
+    "name": null,
+    "flags": []
+  },
+  "versions": []
+}

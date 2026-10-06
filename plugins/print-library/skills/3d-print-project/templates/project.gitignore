@@ -1,0 +1,16 @@
+# Local runtime, credentials and disposable state
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.omp/
+.context/
+.claude/settings.local.json
+.slicer-cache/
+# Host details beside helper receipts (absolute paths, commands, interpreter) and raw slicer output
+*.local.json
+*.local.log

@@ -1,0 +1,12 @@
+{
+  "name": "print-library",
+  "owner": { "name": "AlexMC" },
+  "description": "Print Library: the agent skill and its vendored library tool.",
+  "plugins": [
+    {
+      "name": "print-library",
+      "source": "./plugins/print-library",
+      "description": "Design, verify and record 3D-printable models; work inside a Print Library through pull requests."
+    }
+  ]
+}

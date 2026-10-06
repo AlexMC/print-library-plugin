@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "software": {
+    "bambu_studio": { "path": null, "status": "not_configured" },
+    "python": { "path": null, "status": "not_configured" }
+  },
+  "presets": {
+    "pla-0.2-standard": {
+      "description": "Example only: a named snapshot of native slicer profiles. Replace every value with confirmed facts.",
+      "machine": "presets/pla-0.2-standard/machine.json",
+      "process": "presets/pla-0.2-standard/process.json",
+      "filament": "presets/pla-0.2-standard/filament.json",
+      "build_volume_mm": [256, 256, 256],
+      "require_supports": false,
+      "assumptions": ["Confirm the installed nozzle and build plate before printing."],
+      "expected_settings": { "nozzle_diameter": ["0.4"], "layer_height": "0.2" }
+    }
+  },
+  "notes": [
+    "Host-only configuration (KTD17): save as ~/.config/3d-print/local.json. Never commit it or copy its paths into a library.",
+    "Preset paths resolve relative to this file. The preset ids match slicer.preset_ids in the library's workshop.json.",
+    "Shareable facts (printer, nozzle, build plate, materials, slicer and preset ids) live in the library's workshop.json, written with the tool's `workshop set`; see workshop.example.json.",
+    "A standalone project without a library may use one combined profile: these keys plus the printer and material facts, as the legacy ~/.config/3d-print/workshop.json does.",
+    "Keep OAuth and printer credentials in their native credential stores, never here."
+  ]
+}
